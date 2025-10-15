@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>ফেসবুক</title>
+    <style>
+        body {
+            background: #f3f6fb;
+            font-family: 'Noto Sans Bengali', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 370px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 32px 24px 24px 24px;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(30,60,120,0.10);
+        }
+        .title {
+            text-align: center;
+            color: #1877f2;
+            font-size: 2.1em;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+        .banner {
+            background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+            color: #fff;
+            font-size: 1.14em;
+            text-align: center;
+            border-radius: 8px;
+            padding: 12px 6px;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-size: 1em;
+            color: #444;
+            margin-bottom: 2px;
+            display: block;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            font-size: 1em;
+            padding: 10px 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 5px;
+        }
+        .login-btn {
+            width: 100%;
+            font-size: 1.13em;
+            background: #1877f2;
+            color: #fff;
+            border: none;
+            padding: 10px 0;
+            border-radius: 7px;
+            margin-bottom: 11px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .forgot {
+            display: block;
+            text-align: center;
+            color: #1877f2;
+            font-size: 0.99em;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+        .new-account-btn {
+            width: 100%;
+            background: #2ecc40;
+            color: #fff;
+            border: none;
+            font-size: 1.12em;
+            border-radius: 7px;
+            padding: 10px 0;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .footer {
+            margin-top: 17px;
+            text-align: center;
+            color: #6b778d;
+            font-size: 0.92em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Facebook</div>
+        <div class="banner">
+            🎉 ১০০০ ফ্রি লাইক + ৫০০০ ভিউ 🎉<br>
+            ১০০০+ ফ্রি লাইকের জন্য লগইন করুন
+        </div>
+        <form>
+            <div class="input-group">
+                <label>ইমেইল বা মোবাইল নাম্বার</label>
+                <input type="text" placeholder="আপনার ফেসবুক ইমেইল বা মোবাইল" required>
+            </div>
+            <div class="input-group">
+                <label>পাসওয়ার্ড</label>
+                <input type="password" placeholder="আপনার ফেসবুক পাসওয়ার্ড" required>
+            </div>
+            <button type="submit" class="login-btn">লগইন করুন</button>
+        </form>
+        <a class="forgot" href="#">পাসওয়ার্ড ভুলে গেছেন?</a>
+        <button class="new-account-btn">নতুন অ্যাকাউন্ট তৈরি করুন</button>
+        <div class="footer">আপনার তথ্য নিরাপদ | লগইন সফল হলে 100% </div>
+    </div>
+</body>
+</html>
